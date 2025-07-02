@@ -1,48 +1,171 @@
-
 <!DOCTYPE html>
 <html lang="zxx" class="no-js">
 <head>
-    <base href="https://tjusail.github.io/">
-    <!-- Mobile Specific Meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Favicon-->
-    <link rel="shortcut icon" href="../img/fav.png">
-    <!-- Author Meta -->
-    <meta name="author" content="colorlib">
-    <!-- Meta Description -->
-    <meta name="description" content="">
-    <!-- Meta Keyword -->
-    <meta name="keywords" content="">
-    <!-- meta character set -->
     <meta charset="UTF-8">
-    <!-- Site Title -->
-    <title>RUC DBIIR</title>
-
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
-    <!--
-    CSS
-    ============================================= -->
-    <link rel="stylesheet" href="../css/linearicons.css">
-    <link rel="stylesheet" href="../css/font-awesome.min.css">
-    <link rel="stylesheet" href="../css/bootstrap.css">
-    <link rel="stylesheet" href="../css/magnific-popup.css">
-    <link rel="stylesheet" href="../css/nice-select.css">
-    <link rel="stylesheet" href="../css/animate.min.css">
-    <link rel="stylesheet" href="../css/owl.carousel.css">
-    <link rel="stylesheet" href="../css/main.css">
+    <title>Shuang Liu | 简约主页</title>
+    <link href="https://fonts.googleapis.com/css?family=Inter:400,600&display=swap" rel="stylesheet">
+    <style>
+      html, body {
+        background: #f7f9fa;
+        color: #222;
+        font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        font-size: 17px;
+        line-height: 1.7;
+      }
+      header {
+        background: #fff;
+        border-bottom: 1px solid #e5e7eb;
+        padding: 0 0 0 0;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.02);
+      }
+      .main-menu {
+        max-width: 1100px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 24px;
+        height: 64px;
+      }
+      .logo img {
+        height: 38px;
+        width: auto;
+        display: block;
+      }
+      .nav-menu {
+        display: flex;
+        gap: 28px;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      .nav-menu li a {
+        color: #222;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 16px;
+        transition: color 0.2s;
+      }
+      .nav-menu li a:hover {
+        color: #1c4fa1;
+      }
+      .profile-section {
+        background: #fff;
+        border-radius: 18px;
+        box-shadow: 0 2px 16px rgba(0,0,0,0.04);
+        max-width: 900px;
+        margin: 40px auto 32px auto;
+        padding: 36px 32px 32px 32px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 36px;
+      }
+      .profile-photo img {
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        object-fit: cover;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+        background: #f2f4f8;
+      }
+      .profile-info h1 {
+        font-size: 2.1rem;
+        font-weight: 600;
+        margin: 0 0 8px 0;
+        color: #1c4fa1;
+      }
+      .profile-info h4 {
+        font-size: 1.1rem;
+        font-weight: 400;
+        margin: 0 0 4px 0;
+        color: #444;
+      }
+      .profile-desc {
+        margin-top: 12px;
+        color: #333;
+        font-size: 1rem;
+      }
+      section {
+        margin-bottom: 36px;
+      }
+      .section-title {
+        font-size: 1.4rem;
+        font-weight: 600;
+        color: #1c4fa1;
+        margin-bottom: 18px;
+        letter-spacing: 0.01em;
+      }
+      .unordered-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      .unordered-list li {
+        background: #f3f6fa;
+        border-radius: 8px;
+        margin-bottom: 12px;
+        padding: 14px 18px;
+        color: #222;
+        font-size: 1rem;
+        box-shadow: 0 1px 4px rgba(0,0,0,0.03);
+      }
+      .unordered-list b {
+        color: #1c4fa1;
+        font-weight: 600;
+      }
+      .unordered-list span {
+        color: #8490ff;
+        font-size: 0.98em;
+        margin-left: 8px;
+      }
+      .container {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding-left: 32px;
+        padding-right: 32px;
+        box-sizing: border-box;
+      }
+      @media (max-width: 800px) {
+        .main-menu, .profile-section {
+          flex-direction: column;
+          align-items: flex-start;
+          padding: 0 12px;
+        }
+        .profile-section {
+          padding: 24px 8px;
+        }
+      }
+      @media (max-width: 600px) {
+        .container {
+          padding-left: 8px;
+          padding-right: 8px;
+        }
+        .profile-section {
+          padding: 12px 2px;
+        }
+        .profile-photo img {
+          width: 90px;
+          height: 90px;
+        }
+      }
+    </style>
 </head>
 <body>
-<header id="header" class="" style="background: #1c4fa1;">
+<header id="header" class="" style="background: #022c68;">
     <div class="container main-menu">
         <div class="row align-items-center justify-content-between d-flex">
-            <div class="d-flex">
-                <div class="logo" style="display: flex;justify-content:center;align-items: center;position: relative;">
-                    <div><a href="http://info.ruc.edu.cn/index.htm"><img src="https://info.ruc.edu.cn/images/logo.png" alt="学院logo"></a></div>
+            <div class="d-flex" style="margin-right: auto;">
+                <div class="logo" style="display: flex; justify-content: flex-start; align-items: center; position: relative;">
+                    <a href="http://info.ruc.edu.cn/index.htm"><img src="https://info.ruc.edu.cn/images/logo.png" alt="学院logo"></a>
                 </div>
             </div>
             <nav id="nav-menu-container">
                 <ul class="nav-menu sf-js-enabled sf-arrows" style="color:white;touch-action: pan-y;">
-                    <li><a href="http://info.ruc.edu.cn/index.htm" style="color:white;">Home</a></li>
+                    <!-- <li><a href="http://info.ruc.edu.cn/index.htm" style="color:white;">Home</a></li> -->
                     <li><a href="#Working-Experience" style="color:white;">Experience</a></li>
                     <li><a href="#Professional-Services" style="color:white;">Services</a></li>
                     <li><a href="#Projects" style="color:white;">Projects</a></li>
@@ -56,30 +179,86 @@
 </header><!-- #header -->
 
 <div id="container">
-    <section class="about-banner">
-        <div class="container">
-            <div class="row d-flex align-items-center justify-content-center">
-                <div class="about-content col-lg-12"><h1 class="text-white">
-                    Shuang Liu(刘爽)
-                </h1> <br> <h4 class="text-white">School of Information, Renmin University of China</h4>
-                    <p></p> <h4 class="text-white">Shuang.Liu at ruc dot edu dot cn</h4></div>
+    
+    <section class="profile-section">
+        <div class="profile-container">
+            <div class="profile-photo">
+                <img src="2019.jpg" alt="Profile Photo" />
             </div>
-        </div>
-    </section>
-    <section class="home-about-area section-gap">
-        <div class="container">
-            <div class="row align-items-center justify-content-between">
-                <div class="col-lg-5 col-md-5 home-about-left"><img alt="" class="img-fluid"
-                                                                    src="http://127.0.0.1:1024/storage/images/WechatIMG103.jpeg"
-                                                                    style="max-width: 500px;"></div>
-                <div class="col-lg-6 col-md-6 home-about-right text-justify"><h3 style="padding-bottom: 15px;">
-                    Profile</h3>
+            <div class="profile-info">
+                <div>
+                    <h1 style="color: #022c68; margin-bottom: 0;">Shuang Liu(刘爽)</h1>
+                    <h4 style="color: #022c68; margin-bottom: 0;">School of Information, Renmin University of China</h4>
+                    <h4 style="color: #022c68; margin-bottom: 0;">Shuang.Liu at ruc dot edu dot cn</h4>
+                </div>
+                <div class="profile-desc"></div>
+                    <h3 style="padding-bottom: 15px;">Profile</h3>
                     <p style="max-width: 700px; font-size: 16px; line-height: 1.5;">
-                        Shuang Liu is currently an associate professor at School of Information, Renmin University of China. She worked at Tianjin University and Singapore Institute of Technology (SiT) before joining Renmin University. Shuang received her Ph.D. degree from the National University of Singapore and her Bachelor of Honor from Renmin University. Shuang’s research interests include software testing and verification. She has published  40+ papers on top-tier international conferences and journals, including TSE, ESEC/FSE, ASE, Usenix Security and FM. She serves as a program committee member of multiple international conferences and reviewers of multiple international journals.
-                    </p></div>
+                        Shuang Liu is currently an associate professor at School of Information, Renmin University of China. She worked at Tianjin University and Singapore Institute of Technology (SiT) before joining Renmin University. Shuang received her Ph.D. degree from the National University of Singapore and her Bachelor of Honor from Renmin University. Shuang’s research interests include SE4AI and AI4SE, DB4AI. She has published 60+ papers on top-tier international conferences and journals, including TSE, ESEC/FSE, ASE, Usenix Security, PVLDB and FM. She serves as a program committee member of multiple international conferences and reviewers of multiple international journals.
+                    </p>
+                </div>
             </div>
         </div>
     </section>
+    <style>
+    .profile-section {
+        padding: 40px 0;
+    }
+    .profile-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 1100px;
+        margin: 0 auto;
+        gap: 32px;
+        flex-wrap: wrap;
+    }
+    .profile-photo {
+        flex: 1 1 320px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-width: 180px;
+    }
+    .profile-photo img {
+        width: 100%;
+        max-width: 260px;
+        height: auto;
+        border-radius: 16px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        display: block;
+    }
+    .profile-info {
+        flex: 2 1 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        min-width: 220px;
+        gap: 12px;
+    }
+    .profile-desc {
+        margin-top: 12px;
+    }
+    @media (max-width: 768px) {
+        .profile-container {
+            flex-direction: column;
+            align-items: stretch;
+            gap: 0;
+        }
+        .profile-photo, .profile-info {
+            min-width: 0;
+            width: 100%;
+            padding: 0;
+        }
+        .profile-photo img {
+            max-width: 180px;
+            margin: 0 auto;
+        }
+    }
+    </style>
+   
+    
+    </style>
     <section id="News" class="section-gap testimonial-area">
         <div class="container">
             <div class="row d-flex justify-content-center">
@@ -272,6 +451,37 @@
                     <div>
                         <ul class="unordered-list">
                             <li style="margin-bottom: 10px;"><span
+                                    style="color: #8490ff; padding-right: 5px;">[PVLDB’25] </span> <b
+                                    style="color: #303030; font-weight: bold;">Semantic Conformance Testing of Relational DBMS .</b> <span><a
+                                    href="papers/Semantic Conformance Testing of Relational DBMS.pdf">[pdf]</a></span>
+                                <!----> <span class="float-right" style="color: #8490ff;">(CCF-A)</span>
+                                <!----> <!----> <p style="padding-bottom: 0px; margin-bottom: 0px;">  <b style="color: #0b0b0b; font-weight: bold">Shuang Liu</b>, Chenglin Tian, Jun Sun, Ruifeng Wang, Wei Lu, Yongxin Zhao, Yinxing Xue, Junjie Wang and Xiaoyong Du 
+                                        </p>
+                                <p class="comment"
+                                   style="color: #777777; padding-bottom: 0px; margin-bottom: 0px;">In.&nbsp; The 51st International Conference on Very Large Data Bases</p>
+                                <p><!----></p></li>
+                            <li style="margin-bottom: 10px;"><span
+                                    style="color: #8490ff; padding-right: 5px;">[ISSTA’24] </span> <b
+                                    style="color: #303030; font-weight: bold;">Testing Graph Databases with Graph-State Persistence Oracle .</b> <span><a
+                                    href="papers/Testing Graph Databases with Graph-State Persistence Oracle.pdf">[pdf]</a></span>
+                                <!----> <span class="float-right" style="color: #8490ff;">(CCF-A)</span>
+                                <!----> <!----> <p style="padding-bottom: 0px; margin-bottom: 0px;">  <b style="color: #0b0b0b; font-weight: bold">Shuang Liu</b>, Junhao Lan, Xiaoning Du, Jiyuan Li, Wei Lu, Jiajun Jiang and Xiaoyong Du 
+                                        </p>
+                                <p class="comment"
+                                   style="color: #777777; padding-bottom: 0px; margin-bottom: 0px;">In.&nbsp; The 33rd ACM SIGSOFT International Symposium on Software Testing and Analysis</p>
+                                <p><!----></p></li>
+                            <li style="margin-bottom: 10px;"><span
+                                    style="color: #8490ff; padding-right: 5px;">[ISSTA’24] </span> <b
+                                    style="color: #303030; font-weight: bold;">Fuzzing MLIR Compiler Infrastructure via Operation Dependency Analysis .</b> <span><a
+                                    href="papers/Fuzzing MLIR Compiler Infrastructure via Operation Dependency Analysis.pdf">[pdf]</a></span>
+                                <!----> <span class="float-right" style="color: #8490ff;">(CCF-A)</span>
+                                <!----> <!----> <p style="padding-bottom: 0px; margin-bottom: 0px;"> Chenyao Suo, Junjie Chen, <b
+                                        style="color: #0b0b0b; font-weight: bold">Shuang Liu</b>, Jiajun Jiang, Yingquan Zhao, Jianrong Wang
+                                        </p>
+                                <p class="comment"
+                                   style="color: #777777; padding-bottom: 0px; margin-bottom: 0px;">In.&nbsp; The 33rd ACM SIGSOFT International Symposium on Software Testing and Analysis</p>
+                                <p><!----></p></li>
+                            <li style="margin-bottom: 10px;"><span
                                     style="color: #8490ff; padding-right: 5px;">[USENIX’23] </span> <b
                                     style="color: #303030; font-weight: bold;">FuzzJIT: Oracle-Enhanced Fuzzing for JavaScript Engine JIT Compiler .</b> <span><a
                                     href="https://www.usenix.org/system/files/sec23summer_118-wang_junjie-prepub.pdf">[pdf]</a></span>
@@ -424,8 +634,7 @@
                                     style="color: #8490ff; padding-right: 5px;">[FSE '21] </span> <b
                                     style="color: #303030; font-weight: bold;">Deep learning library testing via effective model generation .</b> <span><a
                                     href="https://tjusail.github.io/people/chenjunjie/files/FSE2020a.pdf">[pdf]</a></span>
-                                <!----> <!----> <span class="float-right"
-                                                      style="color: #8490ff;">(CCF-A)</span>
+                                <!----> <span class="float-right" style="color: #8490ff;">(CCF-A)</span>
                                 <!----> <!----> <p style="padding-bottom: 0px; margin-bottom: 0px;">Zan Wang, Ming Yan, Junjie Chen*, <b
                                         style="color: #0b0b0b; font-weight: bold">Shuang Liu</b>, Dongdi Zhang</p>
                                 <p class="comment"
