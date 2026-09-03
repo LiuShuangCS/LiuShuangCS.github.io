@@ -309,12 +309,12 @@
             "zh": "<b>国家奖学金</b><span>2008</span>"
         },
         "list.Teaching.0": {
-            "en": "<b>Compiler Principles</b> <p>2018 Fall, 2019 Fall, 2020 Spring</p>",
-            "zh": "<b>编译原理</b><p>2018秋季, 2019秋季, 2020春季</p>"
+            "en": "<b>Compiler Principles</b> <p>2018 Fall, 2019 Fall, 2020 Spring, 2021 Fall, 2022 Fall, 2025 Spring, 2026 Spring</p>",
+            "zh": "<b>编译原理</b><p>2018秋季, 2019秋季, 2020春季, 2021秋季, 2022秋季, 2025春季, 2026春季</p>"
         },
         "list.Teaching.1": {
-            "en": "<b>Software Engineering</b> <p>2018 Spring, 2019 Spring, 2020 Spring</p>",
-            "zh": "<b>软件工程</b><p>2018春季, 2019春季, 2020春季</p>"
+            "en": "<b>Software Engineering</b> <p>2018 Spring, 2019 Spring, 2020 Spring, 2026 Spring</p>",
+            "zh": "<b>软件工程</b><p>2018春季, 2019春季, 2020春季, 2026春季</p>"
         },
         "ui.roleAssocProf": {
             "en": "Associate Professor",
