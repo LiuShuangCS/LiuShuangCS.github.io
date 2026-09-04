@@ -54,7 +54,7 @@
         },
         "profile.bio": {
             "en": "Shuang Liu is a Wu Yuzhang Young Scholar, Ph.D. supervisor, and associate professor at Renmin University of China. She is an executive committee member of the CCF Technical Committees on System Software and on Databases, and received her Ph.D. from the National University of Singapore. Her research focuses on complex-system testing, database testing, large-model testing, and related directions. She has published more than 70 papers in international venues such as PVLDB, ICDE, ISSTA, ESEC/FSE, ASE, ICSE, FM, USENIX Security, TSE, TOSEM, and the Journal of Software (including more than 30 CCF-A papers), and received the ESEC/FSE 2020 (CCF-A) Best Paper Award. She teaches several core computer-science courses, including Compiler Principles (Honors Course) and Software Engineering, and serves on multiple conference program committees and as a journal reviewer. She leads multiple funded projects, including an NSFC General Program grant, a subproject of a national science and technology major program, an NSFC Youth Program grant, and the CCF-Ant Joint Research Fund.",
-            "zh": "刘爽，中国人民大学吴玉章青年学者，博导、副教授。中国计算机学会系统软件专委、数据库专委执行委员，在新加坡国立大学获得博士学位。从事复杂系统测试、数据库测试、大模型测试等相关方向的研究工作。在相关领域国际会议及期刊PVLDB, ICDE, ISSTA, ESEC/FSE, ASE, ICSE, FM, USENIX Security, TSE, TOSEM, 软件学报等发表论文70余篇（其中CCF A类论文30余篇），并获得ESEC/FSE 2020 (CCF A) 最佳论文奖。主讲编译原理（荣誉课程）、软件工程等多门计算机专业核心课程。担任多个会议程序委员会委员和期刊审稿人。主持包括自科面上、重大专项子课题、青年项目，CCF-蚂蚁联合基金等在内的多项项目。"
+            "zh": "刘爽，中国人民大学吴玉章青年学者，博导、副教授。中国计算机学会系统软件专委、数据库专委执行委员，在新加坡国立大学获得博士学位。从事复杂系统测试、编程智能体构件、AI基础设施等相关方向的研究工作。在相关领域国际会议及期刊PVLDB, ICDE, ISSTA, ESEC/FSE, ASE, ICSE, FM, USENIX Security, TSE, TOSEM, 软件学报等发表论文70余篇（其中CCF A类/中文T1论文40余篇），并获得ESEC/FSE 2020 (CCF A) 最佳论文奖。主讲编译原理（荣誉课程）、软件工程等多门计算机专业核心课程。担任多个会议程序委员会委员和期刊审稿人。主持包括自科面上、重大专项子课题、青年项目，CCF-蚂蚁联合基金等在内的多项项目。"
         },
         "heading.News": {
             "en": "News",
@@ -253,8 +253,8 @@
             "zh": "<b>沐燕舟，王赞，刘爽</b><span>2022.05.17 · CN113468047B</span><p>基于启发式规则的并发式自适应随机测试方法</p>"
         },
         "list.Honors-and-Awards.0": {
-            "en": "<b>Outstanding Advisor Award, National Student Computer System Capability Competition — Compiler Design Track</b><span>2025</span>",
-            "zh": "<b>全国大学生计算机系统能力大赛编译系统设计赛优秀指导教师奖</b><span>2025</span>"
+            "en": "<b>Outstanding Advisor Award, National Student Computer System Capability Competition — Compiler Design Track</b><span>2025, 2026</span>",
+            "zh": "<b>全国大学生计算机系统能力大赛编译系统设计赛优秀指导教师奖</b><span>2025, 2026</span>"
         },
         "list.Honors-and-Awards.1": {
             "en": "<b>Wu Yuzhang Young Scholar, Renmin University of China</b><span>2024</span>",
